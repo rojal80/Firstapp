@@ -30,6 +30,9 @@ public class HomeController : Controller
         // return RedirectToAction("Index");
         return Ok(vm);
     }
+    public IActionResult Ex(){
+        return View();
+    }
 
     public IActionResult Privacy()
     {
